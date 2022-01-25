@@ -1,0 +1,10 @@
+#type of metadata
+type = "course"
+
+#Basic course info, highly recommended
+[course]
+course_name = "Introduction to Electronics" #course name
+course_id = "ECE110"
+department = "Electrical and Computer Engineering"
+taught_by = ["Christopher Schmitz", "Johnathan Schuh", "Hyungsoo Choi"] #professors
+description = "Introduction to selected fundamental concepts and principles in electrical engineering. Emphasis on measurement, modeling, and analysis of circuits and electronics while introducing numerous applications. Includes sub-discipline topics of electrical and computer engineering, for example, electromagnetics, control, signal processing, microelectronics, communications, and scientific computing basics. Lab work incorporates sensors and motors into an autonomous moving vehicle, designed and constructed to perform tasks jointly determined by the instructors and students."

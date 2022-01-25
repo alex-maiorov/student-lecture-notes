@@ -1,0 +1,14 @@
+type = "institution"
+
+#Basic institution info, highly recommended
+[institution]
+name = "University of Illinois at Urbana-Champaign" #course name
+id = "UIUC"
+type = "Tertiary"
+
+#location info, optional
+[location]
+country = "United States"
+region = "Illinois" #state/province/whatever
+address = "901 West Illinois Street"
+postal_code = 61801

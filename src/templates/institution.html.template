@@ -1,0 +1,16 @@
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+<head>
+
+<h1> Student Lecture Notes<br> </h1>
+
+<p>
+This is a website with lecture notes, practice guides, and homework problem explainations. We aim to cover as many institutions as possible. Check out the <a href="%GITHUB_URL%">page source</a> if you want to contribute.<br>
+</p>
+<h3> Institutions:<br> </h3>
+
+<p>
+@REPEAT subpages(NAME, URL)@
+<a href="%subpages[URL]%">%subpages[NAME]%</a><br>
+@REPEAT_END@
+</p>

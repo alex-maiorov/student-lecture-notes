@@ -1,0 +1,6 @@
+#type of metadata
+type = "week"
+
+[entry]
+week_number = 1
+topics = ["Couloumb's Law"]
