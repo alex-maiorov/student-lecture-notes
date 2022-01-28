@@ -1,0 +1,34 @@
+ \documentclass[12pt]{report}
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+
+
+\begin{document}
+\chapter*{MATH 241 Week 2 Lecture 1}
+\section*{3D dot product}
+dot product in 3d, as in 2d, accepts two vectors and produces a scalar output. given vectors $<a,b,c>$ and $<n,m,p>$, the dot product can be calculated by:
+
+$$<a,b,c> \cdot <n,m,p> = an + bm + cp$$
+
+the dot product may also be calculated by using the angle between the two vectors. Given vectors $\vec{u}$ and $\vec{v}$:
+
+$$\vec{u} \cdot \vec{v} = |\vec{u}| |\vec{v}| cos(\theta)$$
+
+Both of the above notations can be extended to any $n$-dimensional space
+
+\section*{Applications}
+The relationship between $cos(\theta)$ and the dot product may be used to find the angle between any two vectors. We may rewrite the above two notations as:
+
+$$cos(\theta) = \frac{\vec{u} \cdot \vec{v}}{|\vec{u}| |\vec{v}|}$$
+
+Considering that $<a,b,c> \cdot <n,m,p> = an + bm + cp$, we may use the above formula to find the angle of any vector to any axis or plane. We simply zero out vector components that we wish to. For example, the angle of vector $<a,b,c>$ to the X axis may be understood as:
+
+$$cos(\theta) = \frac{a^2}{\sqrt{a^2 + b^2 + c^2}}$$
+
+This may also be done for planes. For example, the following is the angle between the vector $<a,b,c>$ and the xy plane:
+
+$$cos(\theta) = \frac{a^2+b^2}{\sqrt{a^2 + b^2 + c^2}}$$
+
+
+
+\end{document}
